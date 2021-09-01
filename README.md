@@ -38,7 +38,7 @@ Responsive
 ### Je opdracht:
 https://www.funko.com
 
-#### Screenshot(s) van de eerste pagina (small screen): 
+#### Screenshot(s) van de eerste pagina (small screen):
 Homepage
 <img src="images/screenshotHomePage.PNG" width="200px" alt="homepagina van de funko website">
 
