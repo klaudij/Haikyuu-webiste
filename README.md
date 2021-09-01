@@ -44,7 +44,7 @@ Homepage
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Resultaten pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/screenshotsResultatenPage.PNG" width="200px" alt="marvel resultaten scherm">
  
 </details>
 
