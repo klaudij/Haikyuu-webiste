@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Klauija Miskovic
 
 #### Je startniveau:
-Tussen rood en zwart in. 
+Tussen rood en zwart in
 
 #### Je focus:
 Responsive
