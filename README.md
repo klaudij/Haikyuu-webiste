@@ -40,7 +40,7 @@ https://www.funko.com
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepage
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/screenshotHomePage.PNG" width="200px" alt="homepagina van de funko website">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Resultaten pagina  
@@ -58,7 +58,7 @@ Resultaten pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/dummy-plaatje.jpg" width="200px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
