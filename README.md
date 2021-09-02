@@ -36,15 +36,15 @@ Responsive
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://www.funko.com
+https://www.arcticmonkeys.com/
  
 #### Screenshot(s) van de eerste pagina (small screen):
 Homepage  
 <img src="images/screenshotHomePage.PNG" width="200px" alt="homepagina van de funko website">
  
  #### Screenshot(s) van de tweede pagina (small screen):
-Resultaten pagina  
-<img src="images/screenshotsResultatenPage.PNG" width="200px" alt="marvel resultaten scherm">
+Video pagina 
+<img src="images/screenshotVideoPage.PNG" width="200px" alt="marvel resultaten scherm">
  
 </details>
 
