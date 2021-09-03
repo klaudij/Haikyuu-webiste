@@ -3,3 +3,15 @@
   box-sizing:border-box;  
 }
 
+body {
+  background:repeating-linear-gradient(
+    90deg,
+   #41484e,
+   #41484e 20px,
+   #000 20px,
+   #000 40px)
+}
+
+h1{
+  color: aliceblue;
+}
