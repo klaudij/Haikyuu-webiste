@@ -40,11 +40,11 @@ https://haikyu.jp
  
 #### Screenshot(s) van de eerste pagina (small screen):
 Homepage  
-<img src="images/screenshotHomepage.PNG" width="200px" alt="homepagina van de Arctic Monkeys website">
+<img src="images/IMG_0407.PNG" width="200px" alt="homepagina van de Arctic Monkeys website">
  
  #### Screenshot(s) van de tweede pagina (small screen):
-Video pagina   
-<img src="images/screenshotVideoPage.PNG" width="200px" alt="video resultaten scherm van de muziek videos">
+Cast pagina   
+<img src="images/IMG_0409.PNG" width="200px" alt="video resultaten scherm van de muziek videos">
  
  
 </details>
