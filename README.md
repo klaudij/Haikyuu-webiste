@@ -36,7 +36,7 @@ Responsive
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://www.arcticmonkeys.com/
+https://haikyu.jp/staffcast/
  
 #### Screenshot(s) van de eerste pagina (small screen):
 Homepage  
