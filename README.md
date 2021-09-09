@@ -115,7 +115,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Om de html codes te schrijven ging opzich best goed. Had in het begin even moeite mee met waar ik moest beginnen, maar nadat ik een begin had gemaakt liep alles wel soepel. Enigste probleem wat ik nu heb is dat de foto's op de website in github niet willen laden...
 
 
 ### Agenda voor meeting
