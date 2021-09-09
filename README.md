@@ -40,11 +40,11 @@ https://haikyu.jp
  
 #### Screenshot(s) van de eerste pagina (small screen):
 Homepage  
-<img src="images/IMG_0407.PNG" width="200px" alt="homepagina van de Arctic Monkeys website">
+<img src="images/IMG_0407.PNG" width="200px" alt="homepagina van de Haikyuuu website">
  
  #### Screenshot(s) van de tweede pagina (small screen):
 Cast pagina   
-<img src="images/IMG_0409.PNG" width="200px" alt="video resultaten scherm van de muziek videos">
+<img src="images/IMG_0409.PNG" width="200px" alt="Cast en staff pagina">
  
  
 </details>
@@ -59,13 +59,16 @@ Cast pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="200px" alt="breakdown van de hele pagina">
+<img src="images/breakdownsheet.jpg" width="200px" alt="breakdown van de hele pagina">
 
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+### NEWS: 
+<img src="images/news.jpg" width="375px" alt="breakdown van een dynamisch deel-news">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+### Staff en cast: 
+<img src="images/staff.jpg" width="375px" alt="breakdown van de staff en cast pagina">
+ 
+ ### Menu: 
+<img src="images/breakdownsheatmenu.jpg" width="375px" alt="breakdown van de menu">
 
 </details>
 
