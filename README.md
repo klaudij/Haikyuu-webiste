@@ -237,8 +237,8 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
+1. Scroll to top button : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top & https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/ 
+2. 
 3. ...
 
 </details>
