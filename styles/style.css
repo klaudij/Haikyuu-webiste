@@ -5,7 +5,10 @@
   background-repeat: no-repeat;
 }
 
-/* common */
+
+/**********/
+/* COMMON */
+/**********/
 :root {
   --font-color-main:#333333;
   --font-color-second:white;
@@ -30,14 +33,16 @@ body{
 
 header {
   padding:6px;
+
   text-transform: uppercase;
   font-weight: 800;
 }
 
 header p {
+  margin-left: 10px;
+  
   font-style: italic;
   font-size: 0.5em;
-  margin-left: 10px;
 }
 
 header img {
@@ -47,35 +52,8 @@ header img {
 header div {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items:flex-end;
   margin-bottom: 5px;
-}
-
-header nav ul{
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content:space-evenly;
-  gap:10px;
-  list-style-type: none;
-
-}
-
-header nav li {
-  min-width: 4em;
-}
-
-
-ul a {
-  text-decoration: none;
-  color: var(--font-color-links);
-  font-size: 0.8em;
-}
-
-ul a:hover{
-  opacity: .6;
-  transition: 0.3s ease;
 }
 
 img {
@@ -83,24 +61,130 @@ img {
  }
 
  h1 {
-   color:#D6D6D6;
+  color:#D6D6D6;
+
+  margin-bottom: var(--margin-bottom);
+
+   text-align: center;
    letter-spacing: -0.09em;
    font-size: 2.55em;
    text-transform: uppercase;
-   text-align: center;
-   margin-bottom: var(--margin-bottom);
  }
 
 h2{
+  color: var( --font-color-main);
+
+  text-align: center;
   font-size: 1.4em;
   text-transform: uppercase;
   font-weight:900;
-  color: var( --font-color-main);
-  text-align: center;
 }
 
-/* scroll back to top button */
+
+
+/***** NAVIGATIE *****/
+header nav ul {
+  background-color: #FE9A26;
+  list-style-type: none;
+  background-image: url("../imgwebsite/Unknown.svg");
+  background-size:27%;
+  background-position: 2% 50%;
+
+  display: flex;
+  position:fixed;
+  left: 0;
+	top:4px;
+	width:100%;
+  transform:translateX(30em);
+  transition: 0.5s;
+  z-index: 1;
+}
+
+header nav ul.terug {
+  transform:translateX(0);
+	transition: 0.5s;
+  
+}
+
+header ul {
+  flex-direction: column;
+  margin: 40px 0;
+}
+
+header nav li {
+  margin: 20px 30px 20px 0;
+
+  text-align: right;
+}
+
+ul a {
+  color: white;
+
+  font-weight: 900;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+ul a:hover{
+  opacity: .6;
+  transition: 0.3s ease;
+} 
+
+ul a:first-child:active {
+  color: black;
+}
+
+ul a:nth-of-type(2):active
+ {
+  color: black;
+}
+
+/* hamburger icoontje code van  https://www.w3schools.com/howto/howto_css_menu_icon.asp */
+.hamburger {
+  cursor: pointer;
+
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+.bar1, .bar2, .bar3 {
+  background-color:#FE9A26;
+
+  width: 30px;
+  height: 5px;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  background-color:black;
+
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  background-color:black;
+
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+
+/***** scroll back to top button *****/
+/***** css code van https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/ */
 #back2Top {
+  background-color:#C9C9C9;
+  color:white;
+
+  border: solid white 2px;
+  border-radius: 80px;
+
   width: 40px;
   line-height: 40px;
   overflow: hidden;
@@ -111,25 +195,40 @@ h2{
   position: fixed;
   bottom: 50px;
   right: 10px;
-  background-color:#C9C9C9;
-  color:white;
+
   text-align: center;
   font-size: 30px;
   text-decoration: none;
-  border: solid white 2px;
-  border-radius: 80px;
 }
 #back2Top:hover {
   opacity: .6;
+}
 
+
+
+/***** footer *****/
+footer {
+  background-color: #FE9A26;
+}
+
+footer p {
+color:var(--font-color-footer);
+
+text-align: center;
+
+padding:10px;
 }
 
 
 
 
 
+
+
+/************/
 /* HOMEPAGE */
-.mainimg {
+/************/
+.mainImg {
   margin-bottom: var(--margin-bottom);
 }
 
@@ -146,25 +245,27 @@ iframe {
 
 }
   
-/* news */
+/***** news *****/
 .newsSection h2{
 margin-bottom: -5px;
 }
 
 table {
   position:relative;
-  font-weight: 500;
   margin-bottom: var(--margin-bottom);
+
+  font-weight: 500;
 }
 
 tr {
+  background-color: #FE9A26;
+
   vertical-align: top;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin: 20px 0;
 
-  background-color: #FE9A26;
   cursor: pointer;
   transition: .3s ease;
 
@@ -183,16 +284,18 @@ tr span{
 
 td {
   color: var(  --font-color-second);
+
   margin: 5px 25px;
 }
 
 td a {
-  text-decoration: none;
   color: var(  --font-color-second);
+
+  text-decoration: none;
 }
 
 
-/* twitter embed */
+/**** twitter embed ****/
 .twitterSection{
   display: flex;
   flex-direction: column;
@@ -206,16 +309,17 @@ td a {
 }
 
 .twitterSection span a {
-  text-decoration: none;
+  color: #FE9A26;
   
   display:inline-block;
   margin:0 0 0 0.5em;
+
+  text-decoration: none;
   font-size:50%;
   font-family: YakuHanJP, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", Meiryo, sans-serif;
   font-weight:600;
   font-size: 15px;
   text-transform: lowercase;
-  color: #FE9A26;
 }
 
 
@@ -235,27 +339,24 @@ td a {
   transition: 0.3s ease;
 }
 
-.linkje{
+.headerFotos a:last-child{
+  margin-bottom: var(--margin-bottom);
+
   text-decoration: none;
   color: var(--font-color-links);
   font-weight: 600;
   text-align: center;
-  margin-bottom: var(--margin-bottom);
 }
 
-/* footer */
-footer {
-  background-color: #FE9A26;
-}
 
-footer p {
-color:var(--font-color-footer);
-text-align: center;
-padding:10px;
-}
 
-/* STAFF & CAST PAGE*/
-.staffcastlogo{
+
+
+
+/**********************/
+/* STAFF & CAST PAGINA*/
+/**********************/
+.staffCastLogo{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -265,59 +366,64 @@ padding:10px;
 }
 
 
-.staffandcast h2 {
+.staffAndCast h2 {
   margin-bottom: var(--margin-bottomH);
+
   font-weight: 700;
   font-size: 2em;
 }
 
-.staffandcast section{
+.staffAndCast section{
   margin-bottom: var(--margin-bottomS);
 }
 
-.staffandcast div {
+.staffAndCast div {
   display: block;
 }
 
-.staffandcast ul {
+.staffAndCast ul {
   list-style-type: none;
+
   position: relative;
   padding: 0;
 }
 
-.staffandcast li {
-
+.staffAndCast li {
   margin: 10px 0;
   display: flex;
   justify-content: center;
+
   align-items: center;
   line-height: 1.4;
 }
 
 
-.staffandcast div:nth-child(1) {
-  font-size: 0.8em;
+.staffAndCast div:nth-child(1) {
   padding: 0 20px 0 0;
+
+  font-size: 0.8em;
   text-align: right;
   font-weight: 500;
 
 }
 
-.staffandcast div:nth-child(2) {
-  font-weight: 600;
+.staffAndCast div:nth-child(2) {
   padding: 0 0 0 20px;
+
+  font-weight: 600;
   text-align: left;
   font-size: 18px;
   margin: 2px 0;
 }
 
-.staffandcast li div{
+.staffAndCast li div{
   width: 50%;
 }
 
-.staffandcast div span {
-  font-size: 0.8em;
-  font-weight: normal;
+.staffAndCast div span {
   display: inline-block;
   margin: 0 0 0 .5em;
+
+  font-size: 0.8em;
+  font-weight: normal;
 }

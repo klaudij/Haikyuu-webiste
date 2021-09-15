@@ -1,7 +1,3 @@
-// JavaScript Document
-
-
-
 // JSS code van ---->https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top
 //Get the button
 var mybutton = document.getElementById("back2Top");
@@ -22,3 +18,18 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
+
+
+// CODE VOOR DE MENU 
+var menuButton = document.querySelector(".hamburger");
+var menusee = document.querySelector("header nav ul");
+
+function menuverschijnt(){
+  menuButton.classList.toggle("change");
+  menusee.classList.toggle("terug")
+
+}
+
+menuButton.addEventListener("click", menuverschijnt);
