@@ -92,7 +92,7 @@ samen met je groepje opstellen
 
 | Artinjo      | Huib          | Klaudija    | Robin        |
 | ---          | ---                | ---          | ---              |
-| -Navigatie, hamburger menu   |    -      | -   | -   |
+| -Navigatie, hamburger menu   |   Had op dit moment niet iets om te bespreken    | Had op dit moment niet iets om te bespreken   | -   |
 | | - |  | - |
 | ...         | ...                | ...          | ...              |
 
