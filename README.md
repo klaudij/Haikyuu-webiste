@@ -100,10 +100,12 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
+- De div om de class="hamburger' te vervagen door een <button.
+- Om de logo een h1 plaatsen
 - nog een punt
-- ...
+- In de table. ipv een span te gebruiken, de eerste td vervangen door een th
+- De classes in de section weghalen
+- Van de main IMG op de homepagina, de tekst met html schrijven ipv een foto.                                                             
 
 </details>
 
