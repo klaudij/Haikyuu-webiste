@@ -86,11 +86,6 @@ Het is mij voor de voortgang gesprek gelukt om beide paginas in volle HTML en CS
 
   <img src="images/home1.png" width="150px" alt="Cast en staff pagina"> <img src="images/menu1.png" width="150px" alt="Cast en staff pagina"><img src="images/staffcast1.png" width="150px" alt="Cast en staff pagina">
  
- Er is alleen een klein probleempje waar ik tegenaan loop. En dat is zodra het scherm van de telefoon b.v. een iphone 8 is of erboven, dat de iframe's height niet meegaat. De widht die is responsive en gaat goed, maar de height blijft maar op 1 formaat. Nou heb ik een paar dingen geprobeerd om het te fixen maar niks werkt..
- 
- 
- <img src="images/iframe1.png" width="200px" alt="Cast en staff pagina">  <img src="images/iframe2.png" width="230px" alt="Cast en staff pagina">
-
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -247,6 +242,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. Scroll to top button : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top & https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/ 
 2. Icon voor de hamburger menu: https://www.w3schools.com/howto/howto_css_menu_icon.asp
-3. ...
+3. Iframe responsive https://blog.theodo.com/2018/01/responsive-iframes-css-trick/
 
 </details>
