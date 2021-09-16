@@ -82,9 +82,14 @@ Cast pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-Het is mij voor de voortgang gesprek gelukt om beide paginas in volle HTML en CSS te maken, en heb ik er een een beetje Javascript aan toegevoegd. Waar ik zelf het trotst op ben is hoe ik de hamburger menu heb gemaakt en de Cast & Staff pagina.
+Het is mij voor de voortgang gesprek gelukt om beide paginas in volle HTML en CSS te maken, en heb ik er een een beetje Javascript aan toegevoegd. Waar ik zelf het trotst op ben is hoe ik de hamburger menu heb gemaakt en de Cast & Staff pagina. 
 
   <img src="images/home1.png" width="150px" alt="Cast en staff pagina"> <img src="images/menu1.png" width="150px" alt="Cast en staff pagina"><img src="images/staffcast1.png" width="150px" alt="Cast en staff pagina">
+ 
+ Er is alleen een klein probleempje waar ik tegenaan loop. En dat is zodra het scherm van de telefoon b.v. een iphone 8 is of erboven, dat de iframe's height niet meegaat. De widht die is responsive en gaat goed, maar de height blijft maar op 1 formaat. Nou heb ik een paar dingen geprobeerd om het te fixen maar niks werkt..
+ 
+ 
+ <img src="images/iframe1.png" width="200px" alt="Cast en staff pagina">  <img src="images/iframe2.png" width="230px" alt="Cast en staff pagina">
 
 
 ### Agenda voor meeting
