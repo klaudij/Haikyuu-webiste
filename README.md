@@ -90,10 +90,10 @@ Het is mij voor de voortgang gesprek gelukt om beide paginas in volle HTML en CS
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| Artinjo      | Huib          | student 3    | student 4        |
+| Artinjo      | Huib          | Klaudija    | Robin        |
 | ---          | ---                | ---          | ---              |
-| -Navigatie, hamburger menu   |          | en ik dit    | en dan ik dat    |
-| | dit als er tijd is | nog een punt | dit wil ik zeker |
+| -Navigatie, hamburger menu   |    -      | -   | -   |
+| | - |  | - |
 | ...         | ...                | ...          | ...              |
 
 
