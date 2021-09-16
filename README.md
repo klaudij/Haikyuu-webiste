@@ -83,6 +83,7 @@ Cast pagina
 
 ### Stand van zaken
 Het is mij voor de voortgang gesprek gelukt om beide paginas in volle HTML en CSS te maken, en heb ik er een een beetje Javascript aan toegevoegd. Waar ik zelf het trotst op ben is hoe ik de hamburger menu heb gemaakt en de Cast & Staff pagina.
+  <img src="images/home1.png" width="150px" alt="Cast en staff pagina"> <img src="images/menu1.png" width="150px" alt="Cast en staff pagina"><img src="images/staffcast1.png" width="150px" alt="Cast en staff pagina">
 
 
 ### Agenda voor meeting
@@ -186,6 +187,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
 
 
 ### Agenda voor meeting
