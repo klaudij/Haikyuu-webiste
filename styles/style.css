@@ -32,7 +32,11 @@ body{
 }
 
 header {
+  background-color: rgba(255, 255, 255, 0.776);
+
   padding:6px;
+  position: sticky;
+  top:0;
 
   text-transform: uppercase;
   font-weight: 800;
@@ -43,16 +47,17 @@ header p {
   
   font-style: italic;
   font-size: 0.5em;
+  font-size:3vw;
 }
 
 header img {
-  width: 100px;
+  width: 35vw;
 }
 
 header div {
   display: flex;
   flex-direction: row;
-  align-items:flex-end;
+  align-items:center;
   margin-bottom: 5px;
 }
 
@@ -60,16 +65,6 @@ img {
   max-width: 100%;
  }
 
- h1 {
-  color:#D6D6D6;
-
-  margin-bottom: var(--margin-bottom);
-
-  text-align: center;
-  letter-spacing: -0.09em;
-  font-size: 2.55em;
-  text-transform: uppercase;
- }
 
 h2{
   color: var( --font-color-main);
@@ -83,6 +78,49 @@ h2{
 
 
 /***** NAVIGATIE *****/
+/* hamburger icoontje code van  https://www.w3schools.com/howto/howto_css_menu_icon.asp */
+button {
+  background: none;
+ 
+   cursor: pointer;
+   
+   border: none;
+   display: inline-block;
+   position: absolute;
+   right: 10px;
+   top: 5px;
+ 
+ }
+ 
+.bar1, .bar2, .bar3 {
+  background-color:#FE9A26;
+ 
+  /* width: 10vw; */
+  width: 30px;
+  height: 5px;
+  /* height: 1vh; */
+  margin: 6px 0;
+  transition: 0.4s;
+ }
+ 
+.change .bar1 {
+  background-color:black;
+ 
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+ }
+ 
+.change .bar2 {
+  opacity: 0;
+}
+ 
+.change .bar3 {
+  background-color:black;
+ 
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+ }
+
 header nav ul {
   background-color: #FE9A26;
   list-style-type: none;
@@ -93,16 +131,23 @@ header nav ul {
   display: flex;
   position:fixed;
   left: 0;
-	top:4px;
+	top:13px;
 	width:100%;
+  
+  
+  z-index: 9999;
+  opacity: 0;
+
+  transition: all 0.6s ;
+  transition-delay: 0.1s;
   transform:translateX(30em);
-  transition: 0.5s;
-  z-index: 1;
 }
 
 header nav ul.terug {
   transform:translateX(0);
 	transition: 0.5s;
+  opacity: 1;
+
   
 }
 
@@ -122,6 +167,7 @@ ul a {
 
   font-weight: 900;
   font-size: 1.1em;
+  font-size: 4vw;
   text-decoration: none;
 }
 
@@ -130,47 +176,10 @@ ul a:hover{
   transition: 0.3s ease;
 } 
 
-ul a:first-child:active {
-  color: black;
-}
-
-ul a:nth-of-type(2):active{
-  color: black;
-}
-
-/* hamburger icoontje code van  https://www.w3schools.com/howto/howto_css_menu_icon.asp */
-.hamburger {
-  cursor: pointer;
-
-  display: inline-block;
-  position: absolute;
-  right: 10px;
-  top: 5px;
-}
-
-.bar1, .bar2, .bar3 {
-  background-color:#FE9A26;
-
-  width: 30px;
-  height: 5px;
-  margin: 6px 0;
-  transition: 0.4s;
-}
-
-.change .bar1 {
-  background-color:black;
-
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-  transform: rotate(-45deg) translate(-9px, 6px);
-}
-
-.change .bar2 {opacity: 0;}
-
-.change .bar3 {
-  background-color:black;
-
-  -webkit-transform: rotate(45deg) translate(-8px, -8px);
-  transform: rotate(45deg) translate(-8px, -8px);
+#homeAcive, #staffActive {
+  color: #FE9A26;
+  background: white;
+  padding: 10px;
 }
 
 
@@ -232,7 +241,7 @@ padding:10px;
 }
 
 /* trailer video*/
-.trailerMovie h2 {
+section:first-of-type h2 {
   margin-bottom: var(--margin-bottomH);
 }
 
@@ -252,10 +261,11 @@ padding:10px;
   width: 100%;
   height: 100%;
   border: 0;
+  z-index: -1;
 }
   
 /***** news *****/
-.newsSection h2{
+section:nth-of-type(2) h2{
   margin-bottom: -5px;
 }
 
@@ -264,6 +274,7 @@ table {
   margin-bottom: var(--margin-bottom);
 
   font-weight: 500;
+  z-index: -1;
 }
 
 tr {
@@ -285,16 +296,24 @@ tr:hover{
   transition: 0.3s ease;
 }
 
-tr span{
+th{
   font-size: 0.9em;
   font-family: arial,serif;
   letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+td, th{
+  color: var(  --font-color-second);
+
+  /* margin: 5px 25px; */
+}
+th{
+  margin:15px 25px 0 25px;
 }
 
 td {
-  color: var(  --font-color-second);
-
-  margin: 5px 25px;
+margin:5px 25px;
 }
 
 td a {
@@ -305,19 +324,23 @@ td a {
 
 
 /**** twitter embed ****/
-.twitterSection{
+section:nth-of-type(3) .twitter-timeline{
+  width:90% !important;
+}
+
+section:nth-of-type(3){
   display: flex;
   flex-direction: column;
   align-items: center;
   
 }
 
-.twitterSection div{
+section:nth-of-type(3) div{
   display: flex;
   flex-direction: row;
 }
 
-.twitterSection span a {
+section:nth-of-type(3) span a {
   color: #FE9A26;
   
   display:inline-block;
@@ -332,23 +355,25 @@ td a {
 }
 
 
-.headerFotos {
+section:nth-of-type(4) {
   margin:50px 10px 0 10px;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  align-items: center;
 }
 
-.headerFotos img {
+section:nth-of-type(4) img {
   border: solid #D8D7D9 1px;
+
 }
 
-.headerFotos img:hover {
+section:nth-of-type(4) img:hover {
   opacity: .6;
   transition: 0.3s ease;
 }
 
-.headerFotos a:last-child{
+section:nth-of-type(4) a:last-child{
   margin-bottom: var(--margin-bottom);
 
   text-decoration: none;
@@ -365,7 +390,27 @@ td a {
 /**********************/
 /* STAFF & CAST PAGINA*/
 /**********************/
-.staffCastLogo{
+
+.anderAchtergrond {
+  background-image: url("../imgwebsite/bgStaff.JPG");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: 0% 100%;
+}
+.staffMain h1 {
+  color:#D6D6D6;
+
+  margin-bottom: var(--margin-bottom);
+
+  text-align: center;
+  letter-spacing: -0.09em;
+  font-size: 10vw;
+  text-transform: uppercase;
+}
+
+svg{
+  fill: black;
+
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -374,30 +419,55 @@ td a {
   max-width: 350px;
 }
 
+svg .st1 {
+  fill:#FE9A26;
+}
 
-.staffAndCast h2 {
-  margin-bottom: var(--margin-bottomH);
+@keyframes turnAround {
+  0% {
+    transform:rotate(0deg) scale(1);
+    
+  }
+  50% {
+    transform:rotate(1turn) scale(1.4);
+  }
+  100% {
+    transform:rotate(0deg) scale(1);
+  }
+}
+
+svg:hover {
+  animation-name:turnAround;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+}
+
+.staffMain section h2 {
+  margin-bottom: var(--margin-bottom);
 
   font-weight: 700;
   font-size: 2em;
 }
 
-.staffAndCast section{
+.staffMain section{
   margin-bottom: var(--margin-bottomS);
+  width: 100%;
 }
 
-.staffAndCast div {
+.staffMain div {
   display: block;
+  align-items: center;
 }
 
-.staffAndCast ul {
+.staffMain ul {
   list-style-type: none;
 
   position: relative;
   padding: 0;
+  z-index: -1;
 }
 
-.staffAndCast li {
+.staffMain li {
   margin: 10px 0;
   display: flex;
   justify-content: center;
@@ -407,8 +477,8 @@ td a {
 }
 
 
-.staffAndCast div:nth-child(1) {
-  padding: 0 20px 0 0;
+.staffMain section li div:nth-child(1)  {
+  padding: 0 15px 0 0;
 
   font-size: 0.8em;
   text-align: right;
@@ -416,8 +486,8 @@ td a {
 
 }
 
-.staffAndCast div:nth-child(2) {
-  padding: 0 0 0 20px;
+.staffMain section li div:nth-child(2) {
+  padding: 0 0 0 15px;
 
   font-weight: 600;
   text-align: left;
@@ -425,14 +495,203 @@ td a {
   margin: 2px 0;
 }
 
-.staffAndCast li div{
+.staffMain li div{
   width: 50%;
 }
 
-.staffAndCast div span {
+.staffMain li div span {
   display: inline-block;
   margin: 0 0 0 .5em;
 
   font-size: 0.8em;
   font-weight: normal;
+}
+
+
+
+/****************************************************************/
+/* styling voor Ipad als de browser minimaal 690 breed is */
+/****************************************************************/
+@media (min-width:690px) {
+/**********/
+/* COMMON */
+/**********/
+
+h2 {
+  font-size: 1.5em;
+}
+
+header p {
+  margin-left: 20px;
+}
+
+header img {
+  margin:2px 0 0 2px;
+}
+
+button {
+  top:10px;
+}
+
+ header nav ul {
+   top:30px;
+ }
+
+/************/
+/* HOMEPAGE */
+/************/
+.respIframe iframe{
+  width: 80%;
+  height: 80%;
+
+  margin-left: 50vw;
+  transform: translate(-50%);
+}
+
+.respIframe {
+  margin-bottom: -15px;
+  }
+
+table tr{
+  font-size: 1.1em;  
+}
+
+.twitter-timeline{
+  height: 670px !important;
+}
+
+section:nth-of-type(4) {
+  gap: 20px; 
+}
+
+/**********************/
+/* STAFF & CAST PAGINA*/
+/**********************/
+
+
+
+
+}
+
+
+/****************************************************************/
+/* styling voor Ipad/desktop als de browser minimaal 1023 breed is */
+/****************************************************************/
+@media (min-width:900px) {
+/***********/
+/* COMMON*/
+/***********/
+
+/***** menu *****/
+
+
+/***** voor de layout van de website *****/
+.containerInner {
+  display: grid;
+  grid-template-columns: 1fr 60% 5%;
+  grid-template-rows: 1fr 1fr;
+  min-height: 100vh;
+}
+
+ button{
+  display: none;
+}
+
+header{
+  position: static;
+  background-color: pink;
+}
+
+
+header div {
+  flex-direction: column;
+  align-items:flex-start;
+  /* margin-bottom: 5px; */
+  
+}
+
+header nav ul {
+  transform:translateX(0);
+  padding:30px;
+  opacity: 1;
+  position:static;
+  transform:none;
+  display:flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  background:none;
+}
+
+header nav li {
+  margin: 0;
+
+  text-align: right;
+}
+
+ul a {
+  color: black;
+
+  font-weight: 900;
+  font-size: 1em;
+  font-size: 1.7vw;
+  text-decoration: none;
+}
+
+ul a:hover{
+  opacity: .6;
+  transition: 0.3s ease;
+} 
+
+#homeAcive, #staffActive {
+background: none;
+color: black;
+}
+
+
+.containerInner main {
+  order:2;
+}
+
+.containerInner .mainImg {
+  position:sticky;
+  top:0;
+}
+
+.containerInner footer p{
+  position:sticky;
+  top:0;
+  right:0;
+  
+  text-align:center;
+  writing-mode: vertical-lr;
+}
+
+
+
+/************/
+/* HOMEPAGE */
+/************/
+.respIframe iframe{
+  width: 90%;
+  height: 90%;
+  margin-left: 17vw;
+  transform: translate(-50%);
+}
+
+section:nth-of-type(4) {
+  margin:50px 30px 0 30px;
+}
+
+
+
+
+/**********************/
+/* STAFF & CAST PAGINA*/
+/**********************/
+
+
+
+
 }

@@ -14,24 +14,26 @@
 </head>
 
 <body>
-	<header>
+
+	<div class="containerInner">
+<header>
 		<div>
-			<a href="index.html"><img src="imgwebsite/logo_haikyu.svg" alt="Website Logo"></a>
+			<h1><a href="index.html"><img src="imgwebsite/logo_haikyu.svg" alt="Haikyuu"></a></h1>
 
 			<p>Offical website</p>
 		</div>
 
-		<!-- Code voor hamburger https://www.w3schools.com/howto/howto_css_menu_icon.asp -->
-		<div class="hamburger" >
-            <div class="bar1"></div>
+		<!-- Code voor hamburger icoontje https://www.w3schools.com/howto/howto_css_menu_icon.asp -->
+		<button>
+			<div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
-          </div>
+		</button>
+            
 
 		<nav>
 			<ul>
-				<li><a .
-					class="homePpage" href="index.html">Home</a></li>
+				<li><a id="homeAcive" href="index.html">Home</a></li>
 				<li><a href="staffCast.html">Staff & cast</a></li>
 				<li><a href="xxx">News</a></li>
 				<li><a href="xxx">On air</a></li>
@@ -42,54 +44,54 @@
 
 	</header>
 
+	
+		<img class="mainImg" src="imgwebsite/main_img5_sp.jpg" alt="Haikyuu to the top. Blu-ray & DVD">
 	<main>
-		<img class="mainImg" src="imgwebsite/main_img5_sp.jpg" alt="Main image">
+		
+		
 
-		<section class="trailerMovie">
+		<section>
 			<h2>Movie</h2>
+
 			<div class="respIframe">
-			<iframe src="https://www.youtube.com/embed/5V4SQVBpnnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+				<iframe src="https://www.youtube.com/embed/5V4SQVBpnnU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
 			</div>
-			
 		</section>
 
-		<section class="newsSection">
+		<section>
 			<h2>News</h2>
 			<table>
 				<tr>
-					<td><span>2021/09/06</span></td>
+					<th>2021/09/06</th>
 					<td> <a href="staffCast.html">GOODSページを更新！</a></td>
 				</tr>
 
 				<tr>
-					<td><span>2021/09/01</span></td>
-					<td><a href="xxx">『ハイキュー !!』とシーブリーズのスペシャルコラボ第二弾!!
-					</a></td>
+					<th>2021/09/01</th>
+					<td><a href="xxx">『ハイキュー !!』とシーブリーズのスペシャルコラボ第二弾!!</a></td>
 				</tr>
 
 				<tr>
-					<td><span>2021/09/01</span></td>
-					<td><a href="xxx">『ハイキュー!!マスコット キャラクターズ フェア』11/6より全国のアニメイトで開催！
-					</a></td>
+					<th>2021/09/01</th>
+					<td><a href="xxx">『ハイキュー!!マスコット キャラクターズ フェア』11/6より全国のアニメイトで開催！</a></td>
 				</tr>
 
 				<tr>
-					<td><span>2021/08/30</span></td>
-					<td><a href="xxx">GOODSページを更新！
-					</a></td>
+					<th>2021/08/30</th>
+					<td><a href="xxx">GOODSページを更新！</a></td>
 				</tr>
 			</table>
 		</section>
 
-		<section class="twitterSection">
+		<section>
 			<div>
 				<h2>Twitter<span><a href="https://twitter.com/animehaikyu_com?ref_src=twsrc%5Etfw">@animehaikyu_com</a></span></h2>
 			</div>
 
-			<a class="twitter-timeline" data-width="302" data-height="350" href="https://twitter.com/animehaikyu_com?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			<a class="twitter-timeline" data-width="302" data-height="350"  href="https://twitter.com/animehaikyu_com?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 		</section>
 
-		<section class="headerFotos">
+		<section>
 			<p><a href=""><img src="imgwebsite/foto1.jpg" alt=""></a></p>
 			<p><a href=""><img src="imgwebsite/foto2.jpg" alt=""></a></p>
 			<p><a href=""><img src="imgwebsite/foto3.jpg" alt=""></a></p>
@@ -97,7 +99,7 @@
 			<p><a href=""><img src="imgwebsite/foto5.jpg" alt=""></a></p>
 			<p><a href=""><img src="imgwebsite/foto6.jpg" alt=""></a></p>
 
-			<a class="linkje" href="https://www.toho.co.jp/ip/characters/haikyu"> ＜ビジネスのお問い合わせ＞ </a>
+			<a href="https://www.toho.co.jp/ip/characters/haikyu"> ＜ビジネスのお問い合わせ＞ </a>
 		</section>
 
 		 <!-- code van https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/ -->
@@ -106,7 +108,10 @@
 
 	<footer><p><small>©古舘春一／集英社・「ハイキュー!!」製作委員会・MBS </small></p> </footer>
 
+
 	<script src="scripts/script.js"></script>
+	</div>
+	
 </body>
 
 </html>
