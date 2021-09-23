@@ -119,16 +119,18 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-Op dit moment ben ik bezig met het responsive maken van mijn website. Als het goed is is die al wel responsive t/m een ipad (staand) formaat, maar vanaf ipad liggend formaat t/m desktop moet ik er nog mee aan de slag.
+Eerder heb ik nog nooit met grid gewerkt, dus dit was mijn eerste keer. Het was wel even wennen en opzich snap ik de basis wel maar ik moet er meer mee oefenen om het beter te kunnen snappen. Op dit moment ben ik bezig met het responsive maken van mijn website. Als het goed is is die al wel responsive t/m een ipad (staand) formaat, maar vanaf ipad liggend formaat t/m desktop moet ik er nog mee aan de slag. 
+ 
+ <img src="images/ipadformaatstaand.png" width="150px" alt="Cast en staff pagina">   <img src="images/ipadliggendformaat.png" width="150px" alt="Cast en staff pagina"> 
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Huib    | Artinjo         | Klaudija  | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Responsive maken en mooi houden tegerlijkertijd  | Afbeeldingen met grid positioneren   | Tips voor het responsive maken voor desktop  | en dan ik dat    |
+| Footer afbeelding | dit als er tijd is | nog een punt | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 
