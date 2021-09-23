@@ -119,7 +119,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-Om de html codes te schrijven ging opzich best goed. Had in het begin even moeite mee met waar ik moest beginnen, maar nadat ik een begin had gemaakt liep alles wel soepel. Enigste probleem wat ik nu heb is dat de foto's op de website in github niet willen laden...
+Op dit moment ben ik bezig met het responsive maken van mijn website. Als het goed is is die al wel responsive t/m een ipad (staand) formaat, maar vanaf ipad liggend formaat t/m desktop moet ik er nog mee aan de slag.
 
 
 ### Agenda voor meeting
