@@ -137,10 +137,10 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Het probleem van Huis is opgelost. De afbeelding op de footer die spring eruit waardoor de pagina ook een stuk extra space van kreeg. 
+- Artinjo is ook geholpen met zijn probleem.
+- Voor mij is het nu duidelijk hoe ik de font-sizes zou kunnen aanpassen mbv media query.
+- We kregen wat tips en tricks wat handig zijn. En een paar plug-ins voor SVC
 
 </details>
 
