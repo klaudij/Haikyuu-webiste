@@ -23,12 +23,12 @@ function topFunction() {
 
 
 // CODE VOOR DE MENU 
-var menuButton = document.querySelector(".hamburger");
-var menusee = document.querySelector("header nav ul");
+var menuButton = document.querySelector("button");
+var menuSee = document.querySelector("header nav ul");
 
 function menuverschijnt(){
   menuButton.classList.toggle("change");
-  menusee.classList.toggle("terug")
+  menuSee.classList.toggle("terug")
 
 }
 
