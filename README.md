@@ -156,8 +156,9 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
+#### Screenreader
 Hier korte omschrijving (met indien nodig een afbeelding)
+ Ik heb de screenreader op mijn telefoon geprobeerd en opzich lukte het mij wel om ermee om te gaan. Er kwamen natuurlijk wel een paar dingen naar voren 
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
