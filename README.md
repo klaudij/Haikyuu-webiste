@@ -163,22 +163,27 @@ Hier korte omschrijving (met indien nodig een afbeelding)
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Spasme/motoriek
+ Zelf heb ik ook de elektrische stimulator gebruikt en snel kwam ik erachter dat het best lastig was om door je site heen te scrollen. Het scrollen ging niet zo heel smooth want ik had niet zo heel veel controle over mijn arm. Zolang de buttons wat groter waren kon ik er nog wel op klikken.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Voor het oplossen van een button probleem is het bests simpel. Door de buttons wat groter te maken, zodat er meer ruimte is om erop te kunnen klikken.
 
+#### Low contrast
+ Voor de low contrast heb ik het voor zowel mijn desktop versie als mijn mobiele versie getest omdat er wat verschillen zitten op de inertface. Voor desktop viel de footer niet zo op, met name wit tekst op een oranje achtegrond. De H2 van de twitter section is wel te zien maar niet goed te lezen. 
+ Nou voor de mobiele versie viel de menu button niet zo heel erg op. In de table was weer hetelfde probleem als in de footer, wit op oranje is niet zo goed te lezen. 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+Voor de footer en de table probleem, kan het opgelost worden door de achtergrond wat lichter te maken en de tekst wat donkerder, of gewoon de tekst een donkere leur geven. Voor de H2 van de twitter section kan dit opgelost worden door er een weight toe te voegen en een wat donkere kleur. 
+ Een oplossing voor de menubutton kan zijn is door het een wat donkere kleur te geven, zodat het wat mee opvalt.
+ 
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Peripheral field loss 
+ Ook hier heb ik voor zowel mobiel als desktop getest. Hier kwam uit dat het nog wel te lezen en te zien was zolang je maar goed concetreert op wat op het scherm staat. Zodra je er even snel langs kijkt, kan je al niet zog goed lezen wat er precies staat. Dankzij de zwarte tekst op een wit achtergrond was dit wel goed te lezen. Maar hoe kleiner de tekst is hoe moeilijker het ook was om het te kunnen lezen. 
 
+ Dit kan makkelijk opgelost worden door de font-size groter te maken. 
+ 
+ #### Kleurenblind 
+Het testen met de kleuren blind bril ging best wel goed, alles was wel prima te zien op zowel desktop als mobiele scherm. 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 </details>
 
