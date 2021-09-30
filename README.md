@@ -205,17 +205,18 @@ Het testen met de kleuren blind bril ging best wel goed, alles was wel prima te 
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb laatste paar dagen niet veel tijd geahd om aan mijn website kunnen werken vanwege de andere vak. Maar wat ik nog moet doen is niet zo heel lastig en heb ik zo wel gepiept. Het is alleen he verder uitwerken voor de responsive en als er nog tijd is om verbeter punten van de Toegankelijkheidstest toe te passen
+ 
 
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | Klaudija         | student 3    | student 4        |
+| Huib     | Klaudija         | Artinjo    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | kijken of de svg code wel klopt. Of dat het misschien op een andere manier kan.            | en ik dit    | en dan ik dat    |
-| en dat ook nog | Welke scherm groottes voor responsive | nog een punt | dit wil ik zeker |
+| Heeft geen specifieke vragen  | kijken of de svg code wel klopt. Of dat het misschien op een andere manier kan.            | Articles onder elkaar zetten op een pagina.   | en dan ik dat    |
+| - | Welke scherm groottes voor responsive | - | dit wil ik zeker |
 | ...            | ...                | ...          | ...              |
 
 
