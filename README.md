@@ -157,10 +157,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
 #### Screenreader
- Ik heb de screenreader op mijn telefoon getest en opzich lukte het mij wel om ermee om te gaan. Er kwamen natuurlijk wel een paar dingen naar voren wat niet echt lekker werken. Bijvoorbeeld wanneer ik op de hamburger menu druk zegt de screenreader "knop". Heel onduidelijk ook vooral als je niet weet dat het een menu is. Op de meeste linkjes zegt de screenreader 'link' en zegt het niet echt waar de link naartoe gaat. Aan het eind van mijn webiste staan er paar images dat een link zijn maar de screenreader zegt niet wat het hoort te zeggen. 
+ Ik heb de screenreader op mijn telefoon getest en opzich lukte het mij wel om ermee om te gaan. Er kwamen natuurlijk wel een paar dingen naar voren wat niet echt lekker werken. Bijvoorbeeld wanneer ik op de hamburger menu druk zegt de screenreader "knop". Heel onduidelijk ook vooral als je niet weet dat het een menu is. Op de meeste linkjes zegt de screenreader 'link' en zegt het niet echt waar de link naartoe gaat. Aan het eind van mijn webiste staan er paar images dat een link zijn maar de screenreader zegt niet wat het hoort te zeggen. <img src="images/screenreader.PNG" width="150px" alt="screenshot van de homepage voor screenreader test">
+
+
  Voor de rest las het alles voor wat op het scherm stond, dus zowel de alle h1, h2, videos etc.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+
 De menuknop kan opgelost worden door een 'alt' toe te voegen in de code. Dit geldt ook voor de image links. In het kort opschrijven in de alt waar de link naartoe leidt. 
 
 #### Spasme/motoriek
@@ -169,7 +171,7 @@ De menuknop kan opgelost worden door een 'alt' toe te voegen in de code. Dit gel
 Voor het oplossen van een button probleem is het bests simpel. Door de buttons wat groter te maken, zodat er meer ruimte is om erop te kunnen klikken.
 
 #### Low contrast
- Voor de low contrast heb ik het voor zowel mijn desktop versie als mijn mobiele versie getest omdat er wat verschillen zitten op de inertface. Voor desktop viel de footer niet zo op, met name wit tekst op een oranje achtegrond. De H2 van de twitter section is wel te zien maar niet goed te lezen. 
+ Voor de low contrast heb ik het voor zowel mijn desktop versie als mijn mobiele versie getest omdat er wat verschillen zitten op de inertface. Voor desktop viel de footer niet zo op, met name wit tekst op een oranje achtegrond. De H2 van de twitter section is wel te zien maar niet goed te lezen.<img src="images/screenreader.PNG" width="150px" alt="screenshot van de homepage voor screenreader test">
  Nou voor de mobiele versie viel de menu button niet zo heel erg op. In de table was weer hetelfde probleem als in de footer, wit op oranje is niet zo goed te lezen. 
 
 Voor de footer en de table probleem, kan het opgelost worden door de achtergrond wat lichter te maken en de tekst wat donkerder, of gewoon de tekst een donkere leur geven. Voor de H2 van de twitter section kan dit opgelost worden door er een weight toe te voegen en een wat donkere kleur. 
