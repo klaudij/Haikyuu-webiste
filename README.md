@@ -171,10 +171,10 @@ De menuknop kan opgelost worden door een 'alt' toe te voegen in de code. Dit gel
 Voor het oplossen van een button probleem is het bests simpel. Door de buttons wat groter te maken, zodat er meer ruimte is om erop te kunnen klikken.
 
 #### Low contrast
- Voor de low contrast heb ik het voor zowel mijn desktop versie als mijn mobiele versie getest omdat er wat verschillen zitten op de inertface. Voor desktop viel de footer niet zo op, met name wit tekst op een oranje achtegrond. De H2 van de twitter section is wel te zien maar niet goed te lezen.
+ Voor de low contrast heb ik het voor zowel mijn desktop versie als mijn mobiele versie getest omdat er wat verschillen zitten op de inertface. Voor desktop viel de footer niet zo op, met name wit tekst op een oranje achtegrond. De H2 van de twitter section (de username alleen om precies te zijn) is wel te zien maar niet goed te lezen.
 
-  <img src="images/h2twittersection.jpg" width="150px" alt="screenshot h2 twitter section">
- <img src="images/h2twittersection" width="150px" alt="screenshot van de homepage voor screenreader test">
+  <img src="images/h2twittersection.png" width="400px" alt="screenshot h2 twitter section">
+
  
  Nou voor de mobiele versie viel de menu button niet zo heel erg op. In de table was weer hetelfde probleem als in de footer, wit op oranje is niet zo goed te lezen. 
 
