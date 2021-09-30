@@ -205,7 +205,7 @@ Het testen met de kleuren blind bril ging best wel goed, alles was wel prima te 
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-Ik heb laatste paar dagen niet veel tijd geahd om aan mijn website kunnen werken vanwege de andere vak. Maar wat ik nog moet doen is niet zo heel lastig en heb ik zo wel gepiept. Het is alleen he verder uitwerken voor de responsive en als er nog tijd is om verbeter punten van de Toegankelijkheidstest toe te passen
+Ik heb laatste paar dagen niet veel tijd gehad om aan mijn website te kunnen werken vanwege het andere vak. Maar wat ik nog moet doen is niet zo heel lastig en heb ik wel zo gepiept. Het is alleen het verder uitwerken voor de responsive en als er nog tijd is om de verbeter punten van de Toegankelijkheidstest toe te passen.
  
 
 
