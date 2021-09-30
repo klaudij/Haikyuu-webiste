@@ -173,7 +173,7 @@ Voor het oplossen van een button probleem is het bests simpel. Door de buttons w
 #### Low contrast
  Voor de low contrast heb ik het voor zowel mijn desktop versie als mijn mobiele versie getest omdat er wat verschillen zitten op de inertface. Voor desktop viel de footer niet zo op, met name wit tekst op een oranje achtegrond. De H2 van de twitter section (de username alleen om precies te zijn) is wel te zien maar niet goed te lezen.
 
-  <img src="images/h2twittersection.png" width="400px" alt="screenshot h2 twitter section">
+  <img src="images/h2twittersection.png" width="400px" alt="screenshot h2 twitter section"> 
 
  
  Nou voor de mobiele versie viel de menu button niet zo heel erg op. In de table was weer hetelfde probleem als in de footer, wit op oranje is niet zo goed te lezen. 
@@ -188,7 +188,9 @@ Voor de footer en de table probleem, kan het opgelost worden door de achtergrond
  Dit kan makkelijk opgelost worden door de font-size groter te maken. 
  
  #### Kleurenblind 
-Het testen met de kleuren blind bril ging best wel goed, alles was wel prima te zien op zowel desktop als mobiele scherm. 
+Het testen met de kleuren blind bril ging best wel goed, alles was wel prima te zien op zowel desktop als mobiele scherm.
+ 
+ <img src="images/kleurenblindtest.PNG" width="100px" alt="foto van tijdens de test"> 
 
 
 </details>
