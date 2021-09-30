@@ -157,11 +157,11 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
 #### Screenreader
-Hier korte omschrijving (met indien nodig een afbeelding)
- Ik heb de screenreader op mijn telefoon geprobeerd en opzich lukte het mij wel om ermee om te gaan. Er kwamen natuurlijk wel een paar dingen naar voren 
+ Ik heb de screenreader op mijn telefoon getest en opzich lukte het mij wel om ermee om te gaan. Er kwamen natuurlijk wel een paar dingen naar voren wat niet echt lekker werken. Bijvoorbeeld wanneer ik op de hamburger menu druk zegt de screenreader "knop". Heel onduidelijk ook vooral als je niet weet dat het een menu is. Op de meeste linkjes zegt de screenreader 'link' en zegt het niet echt waar de link naartoe gaat. Aan het eind van mijn webiste staan er paar images dat een link zijn maar de screenreader zegt niet wat het hoort te zeggen. 
+ Voor de rest las het alles voor wat op het scherm stond, dus zowel de alle h1, h2, videos etc.
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
+De menuknop kan opgelost worden door een 'alt' toe te voegen in de code. Dit geldt ook voor de image links. In het kort opschrijven in de alt waar de link naartoe leidt. 
 
 #### Spasme/motoriek
  Zelf heb ik ook de elektrische stimulator gebruikt en snel kwam ik erachter dat het best lastig was om door je site heen te scrollen. Het scrollen ging niet zo heel smooth want ik had niet zo heel veel controle over mijn arm. Zolang de buttons wat groter waren kon ik er nog wel op klikken.
