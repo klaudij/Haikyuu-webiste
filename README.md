@@ -223,10 +223,9 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- De svg code klopt als het goed is wel. 
+- De responsive van schermen is duidelijk voor mij. 
+
 
 </details>
 
