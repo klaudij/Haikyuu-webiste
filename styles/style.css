@@ -23,7 +23,8 @@
 }
 
 body {
-  background-image: url("../imgwebsite/bg_dot.png");
+  background-color: rgba(255, 255, 255, 0.386);
+  background-image: url("../imgwebsite/bg_dot1.JPG");
   background-attachment: fixed;
   background-size: 100%;
   background-position: 0% 100%;
@@ -31,6 +32,7 @@ body {
   font-family: YakuHanJP, "Hiragino Sans", "Hiragino Kaku Gothic ProN",
     "Noto Sans JP", Meiryo, sans-serif;
 }
+
 
 header {
   background-color: rgba(255, 255, 255, 0.776);
@@ -93,10 +95,8 @@ button {
 .bar3 {
   background-color: #fe9a26;
 
-  /* width: 10vw; */
   width: 30px;
   height: 5px;
-  /* height: 1vh; */
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -259,6 +259,7 @@ section:nth-of-type(2) h2 {
 table {
   position: relative;
   margin-bottom: var(--margin-bottom);
+  width: 100%;
 
   font-weight: 500;
   z-index: -1;
@@ -369,20 +370,20 @@ section:nth-of-type(4) a:last-child {
 /**********************/
 
 .anderAchtergrond {
-  background-image: url("../imgwebsite/bgStaff.JPG");
+  background-image: url("../imgwebsite/bgStaff1.jpg");
   background-attachment: fixed;
   background-size: 100%;
   background-position: 0% 100%;
 }
 
-.staffMain h1 {
+.anderAchtergrond main h1 {
   color: #d6d6d6;
 
   margin-bottom: var(--margin-bottom);
 
-  text-align: center;
+  text-align: right;
   letter-spacing: -0.09em;
-  font-size: 10vw;
+  font-size: 12.4vw;
   text-transform: uppercase;
 }
 
@@ -419,24 +420,24 @@ svg:hover {
   animation-iteration-count: infinite;
 }
 
-.staffMain section h2 {
+.anderAchtergrond main section h2 {
   margin-bottom: var(--margin-bottom);
 
   font-weight: 700;
   font-size: 2em;
 }
 
-.staffMain section {
+.anderAchtergrond main section {
   margin-bottom: var(--margin-bottomS);
   width: 100%;
 }
 
-.staffMain div {
+.anderAchtergrond main div {
   display: block;
   align-items: center;
 }
 
-.staffMain ul {
+.anderAchtergrond main ul {
   list-style-type: none;
 
   position: relative;
@@ -444,8 +445,8 @@ svg:hover {
   z-index: -1;
 }
 
-.staffMain li {
-  margin: 10px 0;
+.anderAchtergrond main li {
+  margin: 6px 0;
   display: flex;
   justify-content: center;
 
@@ -453,32 +454,33 @@ svg:hover {
   line-height: 1.4;
 }
 
-.staffMain section li div:nth-child(1) {
-  padding: 0 15px 0 0;
+.anderAchtergrond main section li div:nth-child(1) {
+  padding: 0 10px 0 0;
 
-  font-size: 0.8em;
+  font-size: 0.7em;
   text-align: right;
   font-weight: 500;
 }
 
-.staffMain section li div:nth-child(2) {
-  padding: 0 0 0 15px;
+.anderAchtergrond main section li div:nth-child(2) {
+  padding: 0 0 0 25px;
 
-  font-weight: 600;
+  font-weight: 500;
   text-align: left;
-  font-size: 18px;
+  font-size: 1em;
   margin: 2px 0;
 }
 
-.staffMain li div {
-  width: 50%;
+.anderAchtergrond main li div {
+  width: 47%;
+  /* background-color: aquamarine; */
 }
 
-.staffMain li div span {
+.anderAchtergrond main li div span {
   display: inline-block;
   margin: 0 0 0 0.5em;
 
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-weight: normal;
 }
 
@@ -489,14 +491,21 @@ svg:hover {
 
 
 
+
+
 /****************************************************************/
-/* styling voor Ipad/mobiel als de browser minimaal 430 breed is */
+/* styling voor Ipad/mobiel als de browser minimaal 438 breed is */
 /****************************************************************/
-@media (min-width: 430px) {
+@media (min-width: 420px) {
   button {
-    top: 3.5px;
+    top: 4px;
+  }
+
+  header nav ul {
+    top: 4px;
   }
 }
+
 
 
 
@@ -511,10 +520,28 @@ svg:hover {
 
 
 
+
+/****************************************************************/
+/* styling voor Ipad als de browser minimaal 507 breed is */
+/****************************************************************/
+@media (min-width: 490px) {
+  button {
+    top: 6px;
+    scale: 1.1;
+  }
+
+  header nav ul {
+    top: 9px;
+  }
+}
+
+
+
+
 /****************************************************************/
 /* styling voor Ipad als de browser minimaal 551 breed is */
 /****************************************************************/
-@media (min-width: 551px) {
+@media (min-width: 520px) {
   /**********/
   /* COMMON */
   /**********/
@@ -523,20 +550,53 @@ svg:hover {
     scale: 1.1;
   }
 
+  header nav ul {
+    top: 12px;
+  }
+
   /************/
   /* HOMEPAGE */
   /************/
   section:nth-of-type(4) {
     margin: 50px 35px 0 35px;
   }
+
+  /**********************/
+  /* STAFF & CAST PAGINA*/
+  /**********************/
+
+  .anderAchtergrond main div {
+    margin-left: -1%;
+  }
 }
 
 
 
+
 /****************************************************************/
-/* styling voor Ipad als de browser minimaal 670 breed is */
+/* styling voor Ipad als de browser minimaal 639 breed is */
 /****************************************************************/
-@media (min-width: 670px) {
+@media (min-width: 620px) {
+  /**********/
+  /* COMMON */
+  /**********/
+  button {
+    top: 12px;
+    scale: 1.3;
+  }
+
+  header nav ul {
+    top: 20px;
+  }
+}
+
+
+
+
+/****************************************************************/
+/* styling voor iphone liggend als de browser minimaal 667 breed is */
+/****************************************************************/
+@media (min-width: 650px) {
   /**********/
   /* COMMON */
   /**********/
@@ -620,16 +680,21 @@ svg:hover {
 
 
 
+
 /****************************************************************/
-/* styling voor Ipad/desktop als de browser minimaal 760px breed is */
+/* styling voor Ipad als de browser minimaal 768px breed is */
 /****************************************************************/
-@media (min-width: 760px) {
+@media (min-width: 750px) {
   /***********/
   /* COMMON*/
   /***********/
   button {
-    top: 17px;
+    top: 18px;
     scale: 1.5;
+  }
+
+  header nav ul {
+    top: 30px;
   }
 
   /************/
@@ -650,12 +715,20 @@ svg:hover {
   section:nth-of-type(4) {
     margin: 100px 10px 0 10px;
   }
+
+  /**********************/
+  /* STAFF & CAST PAGINA*/
+  /**********************/
+  .anderAchtergrond section li {
+    font-size: 1.2em;
+  }
 }
 
 
 
+
 /****************************************************************/
-/* styling voor Ipad als de browser minimaal 780px breed is */
+/* styling voor Ipad als de browser minimaal 782px breed is */
 /****************************************************************/
 @media (min-width: 780px) {
   /***********/
@@ -676,8 +749,9 @@ svg:hover {
 
 
 
+
 /****************************************************************/
-/* styling voor Ipad als de browser minimaal 780px breed is */
+/* styling voor Ipad als de browser minimaal 815px breed is */
 /****************************************************************/
 @media (min-width: 799px) {
   /***********/
@@ -701,10 +775,11 @@ svg:hover {
 
 
 
+
 /****************************************************************/
-/* styling voor Ipad/desktop als de browser minimaal 810px breed is */
+/* styling voor Ipad/desktop als de browser minimaal 834px breed is */
 /****************************************************************/
-@media (min-width: 830px) {
+@media (min-width: 810px) {
   /***********/
   /* COMMON*/
   /***********/
@@ -727,12 +802,20 @@ svg:hover {
   section:nth-of-type(4) {
     margin: 100px 10px 0 10px;
   }
+
+  /**********************/
+  /* STAFF & CAST PAGINA*/
+  /**********************/
+  .anderAchtergrond section li {
+    font-size: 1.3em;
+  }
 }
 
 
 
+
 /****************************************************************/
-/* styling voor Ipad/desktop als de browser minimaal 960px breed is */
+/* styling voor Ipad/desktop als de browser minimaal 981px breed is */
 /****************************************************************/
 @media (min-width: 960px) {
   /***********/
@@ -749,7 +832,7 @@ svg:hover {
   }
 
   .containerInner main {
-    margin-top: -730px;
+    margin-top: -760px;
     order: 2;
   }
 
@@ -798,7 +881,7 @@ svg:hover {
     justify-content: space-between;
     flex-wrap: wrap;
     background: none;
-    margin: 50px 0 0 -25px;
+    margin: 50px 0 0 -23px;
   }
 
   header nav li {
@@ -843,7 +926,7 @@ svg:hover {
   .respIframe iframe {
     width: 90%;
     height: 90%;
-    margin-left: 17.2vw;
+    margin-left: 17.5vw;
     transform: translate(-50%);
   }
 
@@ -906,15 +989,66 @@ svg:hover {
   /**********************/
 
   .anderAchtergrond {
-    background-size: 60%;
+    background-size: 90%;
     background-position: 100% 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 80%;
+  }
+
+  .anderAchtergrond header {
+    position: sticky;
+  }
+
+  .anderAchtergrond header div:first-of-type {
+    margin: 10px;
+    width: 120%;
+  }
+
+  .anderAchtergrond header div:first-of-type img {
+    scale: 1.2;
+    margin-left: 11%;
+  }
+
+  .anderAchtergrond header div:first-of-type p {
+    margin-top: 0;
+    font-weight: 700;
+  }
+
+  .anderAchtergrond header nav ul {
+    flex-direction: column;
+    margin: 30px 0 0 -10px;
+    width: 110%;
+  }
+
+  .anderAchtergrond header nav ul li {
+    text-align: left;
+  }
+
+  .anderAchtergrond footer {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background: none;
+  }
+
+  .anderAchtergrond footer p {
+    color: var(--font-color-links);
+    font-size: 0.8em;
+  }
+
+  .anderAchtergrond main h1 {
+    margin: 25px 0 100px 50px;
+
+    text-align: center;
+    font-size: 4.4em;
   }
 }
 
 
 
+
 /****************************************************************/
-/* styling voor Ipad/desktop als de browser minimaal 1000px breed is */
+/* styling voor Ipad/desktop als de browser minimaal 1024px breed is */
 /****************************************************************/
 @media (min-width: 1000px) {
   /***********/
@@ -939,23 +1073,36 @@ svg:hover {
   /************/
 
   .respIframe iframe {
-    margin-left: 17.4vw;
+    margin-left: 17.2vw;
   }
 
   /**********************/
   /* STAFF & CAST PAGINA*/
   /**********************/
-
+  
   .anderAchtergrond {
-    background-size: 60%;
-    background-position: 100% 100%;
+  background-size: 80%;
+  }
+
+  .anderAchtergrond header div:first-of-type img {
+    scale: 1.2;
+    margin-left: 11%;
+  }
+
+  .anderAchtergrond header nav ul {
+    margin: 30px 0 0 0;
+  }
+
+  .anderAchtergrond main h1 {
+    font-size: 4.5em;
   }
 }
 
 
 
+
 /****************************************************************/
-/* styling voor Ipad/desktop als de browser minimaal 1090px breed is */
+/* styling voor Ipad/desktop als de browser minimaal 1112px breed is */
 /****************************************************************/
 @media (min-width: 1090px) {
   /***********/
@@ -964,6 +1111,8 @@ svg:hover {
 
   /***** voor de layout van de website *****/
   .containerInner {
+    background-size: 85%;
+  
     grid-template-columns: 1fr 57% 4.5%;
   }
 
@@ -993,12 +1142,17 @@ svg:hover {
   /**********************/
   /* STAFF & CAST PAGINA*/
   /**********************/
+
+  .anderAchtergrond header nav ul {
+    width: 150%;
+  }
 }
 
 
 
+
 /****************************************************************/
-/* styling voor Ipad/desktop als de browser minimaal 1520px breed is */
+/* styling voor desktop als de browser minimaal 1200px breed is */
 /****************************************************************/
 @media (min-width: 1180px) {
   /***********/
@@ -1006,9 +1160,25 @@ svg:hover {
   /***********/
 
   .containerInner main {
-    margin-top: -880px;
+    margin-top: -890px;
   }
 
+   /***** menu *****/
+   header nav {
+    width: 70%;
+  }
+
+  header ul {
+    margin-left: -30px !important;
+  }
+
+  header ul li {
+    padding: 4px;
+  }
+
+  header ul li:first-child {
+    padding: 4px;
+  }
 
   /************/
   /* HOMEPAGE */
@@ -1016,17 +1186,28 @@ svg:hover {
   table {
     margin-bottom: 60px;
   }
+
+  /**********************/
+  /* STAFF & CAST PAGINA*/
+  /**********************/
+  .anderAchtergrond header nav {
+    margin-left: 60px;
+  }
 }
 
 
 
+
 /****************************************************************/
-/* styling voor Ipad/desktop als de browser minimaal 1360px breed is */
+/* styling voor Ipad/desktop als de browser minimaal 1366px breed is */
 /****************************************************************/
 @media (min-width: 1350px) {
   /***********/
   /* COMMON*/
   /***********/
+  .containerInner {
+    background-size: 70%;
+  }
 
   .containerInner main {
     margin-top: -1060px;
@@ -1061,7 +1242,27 @@ svg:hover {
   section:nth-of-type(4) {
     margin: 60px 40px 0 40px;
   }
+
+  /**********************/
+  /* STAFF & CAST PAGINA*/
+  /**********************/
+
+  .anderAchtergrond {
+    background-size: 70%;
+  }
+
+  .anderAchtergrond header nav {
+    margin-left: 30px;
+  }
+
+  .anderAchtergrond main h1 {
+    margin: 10px 0 90px 70px;
+
+    font-size: 5.8em;
+    text-align: center;
+  }
 }
+
 
 
 
@@ -1081,7 +1282,7 @@ svg:hover {
     padding: 5px;
   }
 
-   /************/
+  /************/
   /* HOMEPAGE */
   /************/
 
@@ -1093,8 +1294,6 @@ svg:hover {
 
 
 
-
-
 /****************************************************************/
 /* styling voor Ipad/desktop als de browser minimaal 1600px breed is */
 /****************************************************************/
@@ -1102,6 +1301,10 @@ svg:hover {
   /***********/
   /* COMMON*/
   /***********/
+
+  .containerInner {
+    background-size: 60%;
+  }
 
   .containerInner main {
     margin-top: -1270px;
@@ -1127,13 +1330,78 @@ svg:hover {
   header ul li:first-child {
     padding: 5px;
   }
-  
+
+  .anderAchtergrond header div:first-of-type {
+    margin: 10px;
+    width: 120%;
+  }
+
+  .anderAchtergrond header div:first-of-type img {
+    scale: 1.2;
+    margin-left: 11%;
+  }
+
+  .anderAchtergrond header div:first-of-type p {
+    margin-top: 0;
+    font-weight: 700;
+  }
+
+  .anderAchtergrond header nav ul {
+    flex-direction: column;
+    margin: 30px 0 0 -10px;
+    width: 110%;
+  }
+
+  .anderAchtergrond header nav ul li {
+    text-align: left;
+  }
+
+  .anderAchtergrond footer {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background: none;
+  }
+
+  .anderAchtergrond footer p {
+    color: var(--font-color-links);
+    font-size: 0.8em;
+  }
+
+  .anderAchtergrond main h1 {
+    margin: 25px 0 100px 50px;
+
+    text-align: center;
+    font-size: 4.4em;
+  }
+
+  /**********************/
+  /* STAFF & CAST PAGINA*/
+  /**********************/
+  .anderAchtergrond {
+    background-size: 55%;
+  }
+
+  .anderAchtergrond header {
+    margin-left: 90px;
+    width: 100%;
+  }
+
+  .anderAchtergrond header div:first-of-type img {
+    scale: 0.9;
+    margin-left: 0;
+  }
+
+  .anderAchtergrond main h1 {
+    font-size: 6.5em;
+    margin-top: 0;
+  }
 }
 
 
 
+
 /****************************************************************/
-/* styling voor Ipad/desktop als de browser minimaal 1600px breed is */
+/* styling voor Ipad/desktop als de browser minimaal 1700px breed is */
 /****************************************************************/
 @media (min-width: 1690px) {
   /***********/
@@ -1144,14 +1412,13 @@ svg:hover {
     margin-top: -1370px;
   }
 
-
   /***** menu *****/
   header nav {
     width: 50%;
   }
 
   header ul {
-    margin-left: 20% !important;
+    margin-left: 18% !important;
   }
 
   header ul li {
@@ -1159,10 +1426,10 @@ svg:hover {
   }
 
   header ul li:first-child {
-    padding:6px;
+    padding: 6px;
   }
 
-   /************/
+  /************/
   /* HOMEPAGE */
   /************/
   section:first-of-type {
@@ -1176,7 +1443,6 @@ svg:hover {
     transform: translate(-50%);
   }
 
-
   section:nth-of-type(4) {
     margin-top: 70px;
     display: grid;
@@ -1185,16 +1451,17 @@ svg:hover {
   }
 
   section:nth-of-type(4) > a:last-child {
-    grid-column: span 2; 
+    grid-column: span 2;
   }
-  
 }
+
+
 
 
 /****************************************************************/
 /* styling voor Ipad/desktop als de browser minimaal 1797px breed is */
 /****************************************************************/
-@media (min-width: 1780px) {
+@media (min-width: 1770px) {
   /***********/
   /* COMMON*/
   /***********/
@@ -1203,30 +1470,20 @@ svg:hover {
     margin-top: -1420px;
   }
 
-
-  /***** menu *****/
-
-
-  header ul {
-    margin-left: 22% !important;
-  }
-
-
-   /************/
+  /************/
   /* HOMEPAGE */
   /************/
 
   .respIframe iframe {
     margin-left: 19.1vw;
   }
-  
 }
 
 
 
 
 /****************************************************************/
-/* styling voor desktop als de browser minimaal 2540 breed is */
+/* styling voor desktop als de browser minimaal 2560 breed is */
 /****************************************************************/
 @media (min-width: 2540px) {
   /***********/
@@ -1238,6 +1495,7 @@ svg:hover {
     background-size: 30%;
 
     grid-template-columns: 1fr 45% 12%;
+  
   }
 
   .containerInner main {
@@ -1297,20 +1555,41 @@ svg:hover {
     width: 84%;
   }
 
-
-
   /**********************/
   /* STAFF & CAST PAGINA*/
   /**********************/
 
   .anderAchtergrond {
-    background-size: 60%;
-    background-position: 100% 100%;
+    background-size: 40%;
+  }
+
+  .anderAchtergrond main {
+    margin-left: -100px;
+  }
+
+  .anderAchtergrond header {
+    margin-left: 110%;
+  }
+
+  .anderAchtergrond header div:first-of-type img {
+    scale: 0.8;
+    margin-left: -20px;
+  }
+
+  .anderAchtergrond header div:first-of-type p {
+    margin-top: 0;
+    font-weight: 700;
+  }
+
+  .anderAchtergrond header nav {
+    margin: 50px 0 0 -30px;
+  }
+
+  .anderAchtergrond main h1 {
+    margin: 25px 0 100px 120px;
+
+    font-size: 6em;
   }
 }
 
-
-
-
-
-
+ /* End media query */
