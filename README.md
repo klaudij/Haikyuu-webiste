@@ -239,12 +239,30 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het coderen van mijn website ging over het grotendeels best wel goed. De opdrachten tijdens de werkgroepen hebben mij er goed bij geholpen, want zo heb ik weer wat nieuws geleerd en heb ik ook een paar opdrachten aan mijn eigen website kunnen toevoegen. Waneer er iets dwars zat, lukte het mij ook om het zelf op te kunnen lossen. Als ik er de tijd voor neem lukt het mij wel 90% van de tijd om het op te kunnen lossen. 
+ Hieronder zijn er wat screenshots te zien van mijn website op verschillende schermen:
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
-
+Screenshots van eerste en tweede pagina op mobiel formaat:
+ 
+ 
+<img src="images/iphonehome1.png" width="300px" alt="homepagina op mobiel van mijn website"><img src="images/iphonehome2.png" width="300px" alt="homepagina op mobiel van mijn website"><img src="images/iphonehome3.png" width="300px" alt="homepagina op mobiel van mijn website"><img src="images/iphonehome4.png" width="300px" alt="homepagina op mobiel van mijn website"><img src="images/iphonehome5.png" width="300px" alt="homepagina op mobiel van mijn website">><img src="images/iphonesc1.png" width="300px" alt="staff and cast page op mobiel van mijn website"><img src="images/iphonesc2.png" width="300px" alt="staff and cast page op mobiel van mijn website"><img src="images/iphonesc3.png" width="300px" alt="staff and cast page op mobiel(liggend) van mijn website">
+ 
+ 
+ 
+Screenshots van eerste en tweede pagina op ipad/desktop formaat:
+ 
+ 
+ <img src="images/ipadhome1.png" width="300px" alt="homepagina opipad van mijn website"> <img src="images/ipadhome2.png" width="300px" alt="homepagina opipad van mijn website"> <img src="images/ipadhome3.png" width="300px" alt="homepagina opipad van mijn website"> <img src="images/ipadsc1.png" width="300px" alt="staff and cast page op ipad van mijn website"> <img src="images/ipadsc2.png" width="300px" alt="staff and cast page op ipad van mijn website"> 
+ 
+ 
+ 
+ Screenshots van eerste en tweede pagina op desktop formaat:
+ 
+ 
+  <img src="images/dekstophome.png" width="300px" alt="homepagina op desktop van mijn website">  <img src="images/desktopsc.png" width="300px" alt="staff and cast op desktop van mijn website">
+ 
 </details>
 
 
