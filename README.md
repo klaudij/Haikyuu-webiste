@@ -185,7 +185,7 @@ Voor de footer en de table probleem, kan het opgelost worden door de achtergrond
 #### Peripheral field loss 
  Ook hier heb ik voor zowel mobiel als desktop getest. Hier kwam uit dat het nog wel te lezen en te zien was zolang je maar goed concetreert op wat op het scherm staat. Zodra je er even snel langs kijkt, kan je al niet zog goed lezen wat er precies staat. Dankzij de zwarte tekst op een wit achtergrond was dit wel goed te lezen. Maar hoe kleiner de tekst is hoe moeilijker het ook was om het te kunnen lezen. 
 
- Dit kan makkelijk opgelost worden door de font-size groter te maken. 
+ Dit kan makkelijk opgelost worden door de font-size groter te maken van de bodytekst. 
  
  #### Kleurenblind 
 Het testen met de kleuren blind bril ging best wel goed, alles was wel prima te zien op zowel desktop als mobiele scherm.
