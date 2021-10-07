@@ -22,6 +22,7 @@ function topFunction() {
 
 
 
+
 // CODE VOOR DE MENU 
 var menuButton = document.querySelector("button");
 var menuSee = document.querySelector("header nav ul");
