@@ -274,7 +274,6 @@ Screenshots van eerste en tweede pagina op ipad/desktop formaat:
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. Scroll to top button : https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top & https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/ 
 2. Icon voor de hamburger menu: https://www.w3schools.com/howto/howto_css_menu_icon.asp
